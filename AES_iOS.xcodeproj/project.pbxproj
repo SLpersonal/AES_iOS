@@ -15,6 +15,7 @@
 		0B6DA3E31E893E01000A40E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B6DA3E11E893E01000A40E6 /* LaunchScreen.storyboard */; };
 		0B6DA3EE1E893E01000A40E6 /* AES_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6DA3ED1E893E01000A40E6 /* AES_iOSTests.m */; };
 		0B6DA3F91E893E01000A40E6 /* AES_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6DA3F81E893E01000A40E6 /* AES_iOSUITests.m */; };
+		0BFC00A71E893F7D00419962 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC00A61E893F7D00419962 /* NSData+AES256.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0B6DA3F41E893E01000A40E6 /* AES_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AES_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6DA3F81E893E01000A40E6 /* AES_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AES_iOSUITests.m; sourceTree = "<group>"; };
 		0B6DA3FA1E893E01000A40E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BFC00A51E893F7D00419962 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		0BFC00A61E893F7D00419962 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0B6DA3D71E893E01000A40E6 /* AppDelegate.m */,
 				0B6DA3D91E893E01000A40E6 /* ViewController.h */,
 				0B6DA3DA1E893E01000A40E6 /* ViewController.m */,
+				0BFC00A51E893F7D00419962 /* NSData+AES256.h */,
+				0BFC00A61E893F7D00419962 /* NSData+AES256.m */,
 				0B6DA3DC1E893E01000A40E6 /* Main.storyboard */,
 				0B6DA3DF1E893E01000A40E6 /* Assets.xcassets */,
 				0B6DA3E11E893E01000A40E6 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				0B6DA3DB1E893E01000A40E6 /* ViewController.m in Sources */,
 				0B6DA3D81E893E01000A40E6 /* AppDelegate.m in Sources */,
+				0BFC00A71E893F7D00419962 /* NSData+AES256.m in Sources */,
 				0B6DA3D51E893E01000A40E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +513,7 @@
 				0B6DA3FF1E893E01000A40E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B6DA4001E893E01000A40E6 /* Build configuration list for PBXNativeTarget "AES_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				0B6DA4021E893E01000A40E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B6DA4031E893E01000A40E6 /* Build configuration list for PBXNativeTarget "AES_iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				0B6DA4051E893E01000A40E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
